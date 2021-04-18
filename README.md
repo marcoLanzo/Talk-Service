@@ -26,3 +26,6 @@ hence the I / O multiplexing.
 Use of two different types of linked lists:
 - the first that keeps track of all users connected to the chat
 - the second which allows the server to keep track of all unavailable users.
+
+Use of the SIGINT and SIQUIT signals to allow the user to terminate the conversation with the server.
+Use of the SIGALARM signal which will automatically disconnect the user after a predetermined time of inactivity.
