@@ -1,6 +1,6 @@
 # Talk-Service
 
-# Abstract
+# Abstract:
 Creation of a "talk" service via internet managed by a server.
 The service keeps track of a list of clients ready to initiate a "conversation ".
 
@@ -13,3 +13,6 @@ two does not interrupt the conversation, and will be unavailable to other conver
 sations. 
 
 At the end of a conversation the clients will be available again until that do not disconnect from the server.
+
+# Implementation side:
+TCP was used as a transport protocol to ensure reliability and security in sending the data flow between clients and servers.
