@@ -34,9 +34,8 @@ Use of the SIGALARM signal which will automatically disconnect the user after a 
 
 By following the steps below you can run the code on your own
 device:
-- take the compressed "SO" file and move it within your file system;
+- take the compressed "Talk-Service" file and move it within your file system;
 - unzip the folder;
-- open the “project so Final” folder;
 - open two separate terminals and go to the right folder;
 - with the first terminal, fill in the "Server.c" file in the "Server" folder;
 - with the second terminal, fill in the "Client.c" file in the "Client" folder;
