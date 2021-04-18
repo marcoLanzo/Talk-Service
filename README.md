@@ -15,4 +15,7 @@ sations.
 At the end of a conversation the clients will be available again until that do not disconnect from the server.
 
 # Implementation side:
-TCP was used as a transport protocol to ensure reliability and security in sending the data flow between clients and servers.
+TCP was used as a transport protocol to ensure reliability and security in sending the data flow between clients and server.
+
+The server is built through a multithreaded approach in which each client,
+requesting the connection, was entrusted to a private thread that managed the requests.
