@@ -1,5 +1,6 @@
 # Talk-Service
 
+# Abstract
 Creation of a "talk" service via internet managed by a server.
 The service keeps track of a list of clients ready to initiate a "conver-
 sation ".
