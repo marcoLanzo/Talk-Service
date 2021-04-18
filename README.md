@@ -29,3 +29,15 @@ Use of two different types of linked lists:
 
 Use of the SIGINT and SIQUIT signals to allow the user to terminate the conversation with the server.
 Use of the SIGALARM signal which will automatically disconnect the user after a predetermined time of inactivity.
+
+# Run Program:
+
+By following the steps below you can run the code on your own
+device:
+- take the compressed "SO" file and move it within your file system;
+- unzip the folder;
+- open the “project so Final” folder;
+- open two separate terminals and go to the right folder;
+- with the first terminal, fill in the "Server.c" file in the "Server" folder;
+- with the second terminal, fill in the "Client.c" file in the "Client" folder;
+- finally perform both.
