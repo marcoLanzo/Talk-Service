@@ -19,3 +19,10 @@ TCP was used as a transport protocol to ensure reliability and security in sendi
 
 The server is built through a multithreaded approach in which each client,
 requesting the connection, was entrusted to a private thread that managed the requests.
+
+In the management of conversations between clients, API select was used which allows you to examine multiple I / O channels at the same time and create
+hence the I / O multiplexing.
+
+Use of two different types of linked lists:
+- the first that keeps track of all users connected to the chat
+- the second which allows the server to keep track of all unavailable users.
